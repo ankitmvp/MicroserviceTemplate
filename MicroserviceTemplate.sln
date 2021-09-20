@@ -3,10 +3,54 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.810.8
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleService.Api", "SampleService.Api\SampleService.Api.csproj", "{4FBB41DE-B853-4A43-97C6-046003EFE536}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleService.Common", "SampleService.Common\SampleService.Common.csproj", "{85937983-396F-4859-8D1C-0FC5CF5EB912}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleService.Contract", "SampleService.Contract\SampleService.Contract.csproj", "{6B08951A-933D-4B00-A8C6-E1674871C5CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleService.Model", "SampleService.Model\SampleService.Model.csproj", "{A73811C9-2E12-48F1-A1E5-C3E6367F57A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleService.Repository", "SampleService.Repository\SampleService.Repository.csproj", "{816B280E-CDDF-4D24-AA82-0E66C07D6BD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleService.Service", "SampleService.Service\SampleService.Service.csproj", "{8CD1697B-5D57-4C6F-A320-5E6EF679B206}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleService.UnitTest", "SampleService.UnitTest\SampleService.UnitTest.csproj", "{59AA5406-EA12-4266-8CFA-ED6F0532BB86}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FBB41DE-B853-4A43-97C6-046003EFE536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FBB41DE-B853-4A43-97C6-046003EFE536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FBB41DE-B853-4A43-97C6-046003EFE536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FBB41DE-B853-4A43-97C6-046003EFE536}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85937983-396F-4859-8D1C-0FC5CF5EB912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85937983-396F-4859-8D1C-0FC5CF5EB912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85937983-396F-4859-8D1C-0FC5CF5EB912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85937983-396F-4859-8D1C-0FC5CF5EB912}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B08951A-933D-4B00-A8C6-E1674871C5CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B08951A-933D-4B00-A8C6-E1674871C5CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B08951A-933D-4B00-A8C6-E1674871C5CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B08951A-933D-4B00-A8C6-E1674871C5CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A73811C9-2E12-48F1-A1E5-C3E6367F57A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A73811C9-2E12-48F1-A1E5-C3E6367F57A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A73811C9-2E12-48F1-A1E5-C3E6367F57A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A73811C9-2E12-48F1-A1E5-C3E6367F57A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{816B280E-CDDF-4D24-AA82-0E66C07D6BD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{816B280E-CDDF-4D24-AA82-0E66C07D6BD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{816B280E-CDDF-4D24-AA82-0E66C07D6BD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{816B280E-CDDF-4D24-AA82-0E66C07D6BD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CD1697B-5D57-4C6F-A320-5E6EF679B206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CD1697B-5D57-4C6F-A320-5E6EF679B206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CD1697B-5D57-4C6F-A320-5E6EF679B206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CD1697B-5D57-4C6F-A320-5E6EF679B206}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59AA5406-EA12-4266-8CFA-ED6F0532BB86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59AA5406-EA12-4266-8CFA-ED6F0532BB86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59AA5406-EA12-4266-8CFA-ED6F0532BB86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59AA5406-EA12-4266-8CFA-ED6F0532BB86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

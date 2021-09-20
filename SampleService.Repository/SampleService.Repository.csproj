@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Concrete\" />
+    <None Remove="Interface\" />
+    <None Remove="Utility\" />
+    <None Remove="Autofac.Extensions.DependencyInjection" />
+    <None Remove="Autofac" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Concrete\">
+      <DependentUpon>Concrete</DependentUpon>
+    </Folder>
+    <Folder Include="Interface\">
+      <DependentUpon>Interface</DependentUpon>
+    </Folder>
+    <Folder Include="Utility\">
+      <DependentUpon>Utility</DependentUpon>
+    </Folder>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SampleService.Model\SampleService.Model.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.1.0" />
+    <PackageReference Include="Autofac" Version="6.2.0" />
+  </ItemGroup>
+</Project>
